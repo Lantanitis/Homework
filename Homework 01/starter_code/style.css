@@ -1,0 +1,13 @@
+body {color: black;
+      font: 'Open Sans', Helvetica, Arial, sans-serif;
+        }
+.firstList {color: #7a148c;
+        text-decoration-line: underline;} 
+
+.fiveCategories {margin: 10px, 25px, 10px, 25px;
+        box-align: center;
+        border: 2px double black;
+        }        
+        
+.tableHeader {color: white;
+        background-color: black;}
