@@ -1,13 +1,19 @@
 body {color: black;
-      font: 'Open Sans', Helvetica, Arial, sans-serif;
-        }
-.firstList {color: #7a148c;
-        text-decoration-line: underline;} 
+      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+     }
+img {float: right;} 
 
-.fiveCategories {margin: 10px, 25px, 10px, 25px;
-        box-align: center;
-        border: 2px double black;
-        }        
+table {
+        border: 2px solid white;
+        text-align: center;
+       }        
         
-.tableHeader {color: white;
-        background-color: black;}
+th {color: white;
+        background-color: black;
+        padding: 3px 5px;}
+
+td {
+        background-color: rgba(211, 211, 211, 0.807);
+        border: 1px solid white;
+        padding: 3px}
+        
