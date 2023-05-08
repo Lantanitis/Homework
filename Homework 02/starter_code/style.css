@@ -1,0 +1,183 @@
+/* ################################################## */
+/* ########### Global classes / overrides ########### */
+/* ################################################## */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 15px 0;
+}
+
+/* Fonts, classes are so I can reuse the styles on a variety of elements */
+.merriweather { font-family: 'Merriweather', serif; }
+      .oswald { font-family: 'Oswald', sans-serif; }
+        .lato { font-family: 'Lato', sans-serif; }
+
+/* Colors */
+/* Dark yellow: #f2ff00 */
+/* Lighter yellow: #ffd900 */
+/* Light gray: #adadad */
+/* Medium gray: #878787 */
+
+/* Background Image */
+/* https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg */
+
+/* I'm missing something and I've tried a bunch of different iterations
+and looked at the solution code and for some reason still can't figure it out.
+I realize that this is exactly what we did in the lab but for some reason
+I can't seem to get it to work. I apologize, I'm blaming this on being ill. */
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-bottom: 5px solid #f2ff00;
+    justify-content: space-between;
+    }
+
+.merriweather {
+    color: #f2ff00;
+    font-family: 'oswald', 'sans-serif';
+    font-size: xx-large;
+    padding-left: 10px;
+  }
+
+#navLink ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  list-style: none;
+  margin-right: 10px;
+
+}
+
+.navOswald li a, 
+.navOswald li a:visited {
+  font-family: 'Oswald' 'sans-serif';
+  color: white;
+  text-decoration: none;
+}
+
+.navLato li a,
+.navLato li a:visited{
+  font-family: 'Lato' 'sans-serif';
+  color: white;
+  text-decoration: none;
+}
+
+u {
+  color:#f2ff00;
+  font: black;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    background-color: #adadad;
+    padding: 30px;
+    font-size: xx-large;
+    font-family: 'lato', 'sans-serif';
+  } 
+
+.meetMatch {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 70%;
+}
+
+.insideMatch {
+  background-color: rgba(255,255,255,0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 50%;
+  margin-right: 5%;
+  padding: 20px 10px;
+  font-size: x-large;
+}
+
+.meetbuttonProfile {
+  font-family: 'lato', 'sans-serif';
+  font-size: large;
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: #f2ff00;
+  padding: 10px 20px 10px 20px;
+  width: 200px;
+  border-radius: 4px;}
+
+  .threeinRow {
+    display: flex;
+    justify-content: center;
+
+  }
+.threeFeature {
+  border-right: 1px solid lightgray;
+  margin: 10px 0;
+  padding: 2%;
+  color: black;
+}
+.oneofSign, .midofFind, .lastofFind,
+.oneofSign a:visited, .midofFind a:visited, .lastofFind a:visited {
+  background-color: #adadad;
+  border-bottom: 2px solid #878787;
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+}
+
+/* hr {
+  display: flex;
+  background-color: #f2ff00;
+  border-top-width: 3px #ffd900;
+} */
+
+  /* 
+.subhowItworks { display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'oswald', 'sans-serif';
+                font-size: medium;
+                color: white;} 
+                
+.subourTeam {display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'oswald', 'sans-serif';
+            font-size: medium;
+            color: white;} */
+
+
+  /* display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  background-color: #f2ff00;
+  font-family: 'oswald', 'sans-serif';
+  width: 100px;
+  height: max-content;} */
+
+
+/* .meetMatch {display: flex; 
+            flex-wrap: wrap;
+            font-size: x-large;
+            margin: 20px;
+            background-color:#adadadad;
+            : https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg;} */
+
+
