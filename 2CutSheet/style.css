@@ -1,0 +1,191 @@
+.Logo {
+    display: grid;
+    background-color: rgb(110, 146, 119);
+}
+
+.GNFLogo {
+    margin: 0 auto;
+}
+
+.breadcrumb {
+    background-color: rgb(110, 146, 119);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.breadcrumb-item+ {
+    color: rgb(242, 236, 211);
+}
+
+.breadcrumbDivider, .breadcrumb-item.active, .breadcrumb-item > a {
+    color: rgb(242, 236, 211);
+    font-size: 40px;    
+}
+
+
+
+.pigMap{
+    position: relative;
+    border: 5px solid  rgb(110, 146, 119);
+    background-color: white;
+    
+}
+
+.head-map:hover + .head-text, .jowl-map:hover + .jowl-text, .neck-map:hover + .neck-text, .butt-map:hover + .butt-text, .picnic-map:hover + .picnic-text, .backfat-map:hover + .backfat-text, .loin-map:hover + .loin-text, .rib-map:hover + .rib-text, .bacon-map:hover + .bacon-text, .ham-map:hover + .ham-text, .hock-map:hover + .hock-text, .hock2-map:hover + .hock-text {
+    display: block;
+    max-width: 200px;
+    border: 0.5rem outset rgb(110, 146, 119);
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.head-text {
+    display: none;
+    position: absolute;
+    top:290px;
+    left:75px;
+    background-color:  rgb(242, 236, 211);
+    color: black;
+}
+
+.jowl-text {
+    display: none;
+    position: absolute;
+    top:425px;
+    left: 75px;
+    background-color:  rgb(242, 236, 211);
+    color: black;
+}
+
+.neck-text {
+    display: none;
+    position: absolute;
+    top:360px;
+    left: 75px;
+    background-color:  rgb(242, 236, 211);
+    color: black;
+}
+
+.butt-text {
+    display: none;
+    position: absolute;
+    top: 390px;
+    left: 290px;
+    background-color:  rgb(242, 236, 211);
+    color: black;
+}
+
+.picnic-text {
+    display: none;
+    position: absolute;
+    top: 490px;
+    left: 290px;
+    background-color:  rgb(242, 236, 211);
+    color: black;
+}
+
+.backfat-text {
+    display: none;
+    position: absolute;
+    top: 340px;
+    left: 425px;
+    background-color:  rgb(242, 236, 211);
+    color: black;
+}
+
+.loin-text {
+    display: none;
+    position: absolute;
+    top: 400px;
+    left: 425px;
+    background-color:  rgb(242, 236, 211);
+    color: black;
+    
+}
+
+.rib-text {
+    display: none;
+    position: absolute;
+    top: 470px;
+    left: 425px;
+    background-color:  rgb(242, 236, 211);
+    color: black;
+}
+
+.bacon-text {
+    display: none;
+    position: absolute;
+    top: 545px;
+    left: 425px;
+    background-color:  rgb(242, 236, 211);
+    color: black;
+  
+}
+
+.ham-text {
+    display: none;
+    position: absolute;
+    top: 454px;
+    left: 630px;
+    background-color:  rgb(242, 236, 211);
+    color: black;
+ 
+}
+
+.hock-text, .hock2-text {
+    display: none;
+    position: absolute;
+    top: 620px;
+    left: 365px;
+    background-color:  rgb(242, 236, 211);
+    color: black;
+ 
+}
+
+.cutSheetForm {
+    color: black;
+    background-color: rgb(242, 236, 211);
+
+}
+
+ul li {
+    list-style-type: none;
+    background-color: rgb(242, 236, 211);
+}
+
+ul li em {
+    font-size: large;
+    color: rgb(110, 146, 119);
+    font-weight: bold;
+}
+
+/* .visible {
+    display: block
+} */
+
+/* .orderStep {
+    display: none;
+} */
+
+.containerPigSize, .wholePigMenu, .halfPigMenu {
+    margin-left: 0;
+
+}
+
+.orderStep {
+    display: block;
+    margin: 0 auto;
+    padding-left: 30px;
+
+}
+
+#pigSize, .pigReview {
+    display: block;
+    margin-left: 30px;
+    font-size: 50px;
+    color: rgb(110, 146, 119);
+    text-decoration-line: underline;
+}
